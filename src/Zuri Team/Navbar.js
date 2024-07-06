@@ -7,7 +7,7 @@ export default function Navbar() {
   return (
     <>
       <BrowserRouter>
-        <header className=" p-10 flex columns-3 justify-between justify-items-center sm:block ">
+        <header className=" p-10 flex columns-3 justify-between justify-items-center ">
           <img src={Image} className="bg-contain" />
           <nav className="flex flex-row  gap-6 text-xl ">
             <NavLink
