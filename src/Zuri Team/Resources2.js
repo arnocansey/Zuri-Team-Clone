@@ -1,7 +1,7 @@
 export default function Resources2(props) {
   return (
     <>
-      <div className="grid grid-cols-2">
+      <div className="grid  sm:grid-cols-2">
         {props.data.map((resources) => {
           return (
             <section className="py-5 pl-32 pr-32 ">
